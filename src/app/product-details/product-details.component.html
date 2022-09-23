@@ -5,6 +5,8 @@
   <h4>{{ product.price | currency }}</h4>
   <p>{{ product.description }}</p>
 </div>
-<button type="button" (click)="addToCart(product)">Buy</button>
-<br>
-<button type="button" (click)="goBack()">Back</button>
+<button type="button" style="margin: 3px" (click)="addToCart(product)">
+  Buy
+</button>
+<br />
+<button type="button" style="margin: 3px" (click)="goBack()">Back</button>
